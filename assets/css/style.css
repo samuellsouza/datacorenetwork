@@ -1,0 +1,51 @@
+
+.logo{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+}
+
+.conteiner-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 16px;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+
+} 
+
+.lista-1 li {
+    display: inline-block;
+    align-items: center;
+    padding: 30px;
+}
+
+.servicos{
+    display:block;
+    justify-content: space-around;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.servicos div {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+main p {
+background: lightslategray;
+padding: 8px 16px;
+text-decoration: bold;
+}
+
+section{
+    padding: 4rem;
+}
