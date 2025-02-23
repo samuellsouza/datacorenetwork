@@ -12,6 +12,7 @@ body {
 .conteiner-1 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 8px 16px;
     background: #b4b7b5;
     border-bottom: 1px solid #e5e5e5;
@@ -27,8 +28,7 @@ body {
 
 .servicos{
     display: flex;
-    justify-content: space-around;
-    gap: 2rem;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -38,7 +38,7 @@ body {
     height: 200px;
     background-color: blue;
     margin: 10px 0px;
-    padding: 10px;
+    padding: 10px
 }
 
 main p {
@@ -57,6 +57,10 @@ main p {
   
 a {
     text-decoration: none;
+}
+
+section {
+    padding: 100px;
 }
 
 
@@ -93,6 +97,7 @@ a:hover {
     border: 1px solid lawngreen;
     color: blue;
     position: static;
+    margin: 5px;
 }
 
 .btn-actions:hover{
@@ -119,8 +124,4 @@ footer > div{
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-}
-
-.conteiner-1 {
-    background: black;
 }
