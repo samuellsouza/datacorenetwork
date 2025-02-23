@@ -1,4 +1,8 @@
 
+
+body {
+    background: #2c2c2c;
+}
 .logo{
     height: 50px;
     width: 200px;
@@ -7,29 +11,26 @@
 
 .conteiner-1 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 8px 16px;
-    background: white;
+    background: #b4b7b5;
     border-bottom: 1px solid #e5e5e5;
-
+    
 } 
 
 .lista-1 li {
     display: inline-block;
-    align-items: center;
-    padding: 30px;
+    align-items: auto;
+    padding: 10px;
+    margin: 10px;
 }
 
 .servicos{
-    display:block;
+    display: flex;
     justify-content: space-around;
     gap: 2rem;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-
 }
 
 .servicos div {
@@ -41,11 +42,85 @@
 }
 
 main p {
-background: lightslategray;
-padding: 8px 16px;
-text-decoration: bold;
+    background: lightslategray;
+    padding: 8px 16px;
+    text-decoration: bold;
+    align-items: center;
 }
 
-section{
+.header-botton-left h2{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    background: lightslategray;
+}
+  
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: blue;
+    text-shadow: 2px 3px 5px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 2px;
+    text-decoration:underline;
+}
+
+
+/*nav ul li:hover{
+    transform: translate(-5px);
+    transition: all 0.2s;
+    font-weight: bold;
+}*/
+
+.box-btn-actions{
+    display: flex;
+    gap: 1rem;
+}
+:is(button,.link-action,){
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-actions{
+    background-color: transparent;
+    border: 1px solid lawngreen;
+    color: blue;
+    position: static;
+}
+
+.btn-actions:hover{
+    background-color: red;
+    border: 1px solid rgb(5, 5, 5);
+}
+
+.link-action{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+
+footer{
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.conteiner-1 {
+    background: black;
 }
