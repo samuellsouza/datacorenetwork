@@ -1,7 +1,5 @@
-
-
 body {
-    background: #2c2c2c;
+   /*background: #2c2c2c;*/
 }
 .logo{
     height: 50px;
@@ -14,8 +12,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 8px 16px;
-    background: #b4b7b5;
-    border-bottom: 1px solid #e5e5e5;
+    /*/background: #b4b7b5;*/
+    /*border-bottom: 1px solid #e5e5e5;*/
     
 } 
 
@@ -24,6 +22,8 @@ body {
     align-items: auto;
     padding: 10px;
     margin: 10px;
+    font-size: 1rem;
+
 }
 
 .servicos{
@@ -34,38 +34,70 @@ body {
 }
 
 .servicos div {
-    width: 200px;
+    width: 300px;
     height: 200px;
+
+    justify-content: space-between;
     background-color: blue;
     margin: 10px 0px;
-    padding: 10px
+    padding: 10px;    
 }
 
+.servicos .one {
+    background-image: url(/assets/img/manutencao_de_computador.jpg);
+}
+
+
 main p {
-    background: lightslategray;
+    /*background: lightslategray;*/
     padding: 8px 16px;
     text-decoration: bold;
     align-items: center;
 }
 
-.header-botton-left h2{
+section > h2{
     padding: 10px;
     font-size: 3rem;
     text-align: center;
-    background: lightslategray;
+    /*background: lightslategray;*/
 }
-  
+
+.header-botton-left {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    /*background: lightslategray;*/
+}
+
+.header-botton-left p {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    font-size: 2rem;
+    text-align: center;
+    text-align: justify;
+    /*background: lightslategray;*/
+
+}
+
+.img {
+    width: 50%;
+    height: 400px;
+}
+
 a {
     text-decoration: none;
+    color: black;
 }
 
 section {
-    padding: 100px;
+    padding: auto;
 }
 
 
 a:hover {
-    color: blue;
+    /*color: blue;*/
     text-shadow: 2px 3px 5px;
     font-weight: 700;
     border-radius: 10px;
@@ -94,14 +126,14 @@ a:hover {
 
 .btn-actions{
     background-color: transparent;
-    border: 1px solid lawngreen;
-    color: blue;
+    border: 1px solid rgb(8, 8, 8);
+    /*color: blue;*/
     position: static;
     margin: 5px;
 }
 
 .btn-actions:hover{
-    background-color: red;
+    background-color: #8f8a8a;
     border: 1px solid rgb(5, 5, 5);
 }
 
@@ -111,8 +143,8 @@ a:hover {
     text-align: center;
 }
 
-
 footer{
+    background: #8f8a8a;
     padding: 4rem;
     display: flex;
     flex-direction: column;
